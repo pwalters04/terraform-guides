@@ -133,3 +133,7 @@ policy "validate-providers-from-desired-regions" {
   source = "./validate-providers-from-desired-regions.sentinel"
   enforcement_level = "advisory"
 }
+
+policy "less-than-100-month" {
+  enforcement_level = "soft-mandatory"
+}
